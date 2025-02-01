@@ -78,18 +78,18 @@
 
         FUNCTION {
             bindings = <
-&trans  &trans  &trans  &trans  &trans                       &kp F1  &kp F2  &kp F3  &kp F4  &kp F5
-&trans  &trans  &trans  &trans  &trans  &trans      &kp F13  &kp F6  &kp F7  &kp F8  &kp F9  &kp F10
-&trans  &trans  &trans  &trans  &trans  &trans      &trans   &trans  &trans  &trans  &trans  &kp F11
-&trans  &trans  &trans  &trans  &trans  &trans      &trans   &trans                          &kp F12
+&kp ESC  &trans  &trans  &trans  &trans                                                             &kp F1             &kp F2  &kp F3  &kp F4  &kp DELETE
+&kp TAB  &kp F2  &kp F5  &kp F4  &trans            &trans                    &kp F13                &kp F6             &kp F7  &kp F8  &kp F9  &kp F10
+&trans   &trans  &trans  &trans  &kp LEFT_BRACKET  &kp LEFT_PARENTHESIS      &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACKET  &trans  &trans  &trans  &kp F11
+&trans   &trans  &trans  &trans  &trans            &trans                    &trans                 &trans                                     &kp F12
             >;
         };
 
         NUM {
             bindings = <
-&kp MINUS                   &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp PLUS                                                   &kp KP_MINUS     &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp KP_DIVIDE
-&kp SLASH                   &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp ASTERISK  &kp LC(LA(KP_NUMBER_0))      &kp UNDERSCORE  &kp KP_PLUS      &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp KP_ASTERISK
-&mt LEFT_SHIFT KP_NUMBER_0  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp PERIOD    &kp EQUAL                    &trans          &kp DOT          &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_EQUAL     &kp KP_EQUAL
+&kp MINUS                   &kp AT_SIGN      &kp HASH         &kp DOLLAR       &kp PERCENT                                                &kp KP_MINUS     &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp KP_DIVIDE
+&kp CARET                   &kp AMPERSAND    &kp EXCL         &kp QUESTION     &kp ASTERISK  &kp LC(LA(KP_NUMBER_0))      &kp UNDERSCORE  &kp KP_PLUS      &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp KP_ASTERISK
+&mt LEFT_SHIFT KP_NUMBER_0  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp PERIOD    &kp EQUAL                    &kp KP_ENTER    &kp DOT          &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_EQUAL     &kp KP_EQUAL
 &trans                      &trans           &trans           &trans           &trans        &trans                       &trans          &kp KP_NUMBER_0                                                     &kp PIPE
             >;
         };
