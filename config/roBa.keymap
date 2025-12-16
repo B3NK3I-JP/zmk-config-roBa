@@ -80,7 +80,7 @@
 
         default_layer {
             bindings = <
-&kp Q               &kp LMETA       &kp U                   &kp COMMA                &kp PERIOD                                              &kp F        &kp W              &lt 5 R      &kp Y            &kp P
+&kp Q               &kp L           &kp U                   &kp COMMA                &kp PERIOD                                              &kp F        &kp W              &lt 5 R      &kp Y            &kp P
 &mt LEFT_GUI MINUS  &mt LEFT_ALT I  &mt LC(LEFT_CONTROL) A  &mt LEFT_SHIFT O         &kp E          &kp LS(LG(S))             &kp MINUS      &kp K        &mt RIGHT_SHIFT T  &mt RCTRL N  &mt RIGHT_ALT S  &mt RIGHT_GUI H
 &mt LEFT_SHIFT Z    &kp X           &kp C                   &kp V                    &kp SEMICOLON  &kp COLON                 &kp SEMICOLON  &kp G        &kp D              &kp M        &kp J            &kp B
 &kp LCTRL           &kp LEFT_WIN    &kp LEFT_ALT            &lt_to_layer_0 6 ESCAPE  &lt 2 SPACE    &lt_to_layer_0 3 TAB      &kp BACKSPACE  &lt 1 ENTER                                                   &kp DEL
